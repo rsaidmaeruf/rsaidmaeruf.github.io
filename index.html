@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="home">
+        <div class="hero">
+            <nav> 
+                <div class="nav-links">
+                    <a class="active" href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="resume.pdf" download="Ranas_resume.pdf">resume</a> 
+                    <a href="#contact">contact</a>
+                </div>
+            </nav>
+            <div class="content"> 
+                <div class="div-text">
+                    <h1>Hi, I'm Rana</h1>
+                    <h4>Student at the University of Colorado Denver</h4>
+                    <p>I'm currently studying Computer Science at the University of Colorado Denver with a minor in business and public health.</p>
+                    <a href="https://www.linkedin.com/in/ranaasaidmaeruf" class="btn">My LinkedIn</a>
+                    
+                </div>
+                <div class="div-img">
+                    <img src="rana.png" alt="Rana">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sections to match the navigation -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="egypt.jpg" alt="egypt">
+            </div>
+            <div class="about-text">
+                <h2>About Me . . .</h2>
+                <p>I am a senior student delving into Computer Science at the University of Colorado Denver. I made the transition into this field in my third year, seeking a new challenge and a deeper intellectual engagement.</p>
+                <p>The National Society of Black Engineers has been helpful in my shift to computer science. The support and resources have been crucial in helping me adjust to this new field and stay motivated. Through networking and being part of a dynamic community, I received the encouragement needed to thrive.</p>
+                <p>Currently, I serve as Vice President of our NSBE chapter. This role has been deeply fulfilling, allowing me to contribute back to the community that supported me and lead initiatives that foster growth and teamwork among our members.</p>
+                <p>My journey has included challenging coding projects, late-night debugging, and engaging team projects that fuel my passion for learning and creativity. Solving complex problems and seeing them come to life is exhilarating and drives me to keep pushing boundaries. These experiences have taught me resilience and adaptability, key skills as I continue to grow in the tech industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <div class="contact-text">
+                <h3>Contact Me</h3>
+                <p>If you have any questions or opportunities, please fill out the form below and I will get back to you as soon as possible!</p>
+            </div>
+    
+            <form class="contact-form" action="contact.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
