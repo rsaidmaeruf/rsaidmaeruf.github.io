@@ -128,7 +128,7 @@
 .hero .content .div-img {
     width: 50%; /* Adjust the width to keep the image within the border */
     position: relative;
-    margin-top: -175px;
+    margin-top: -171px;
     margin-left: 0px; /* Adjust the left margin if needed */
     margin-right: 0; /* Ensure there's no overflow to the right */
 }
